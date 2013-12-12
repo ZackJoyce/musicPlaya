@@ -1,0 +1,64 @@
+body{
+    background-image:url('sonic-youth-sensational-fix7.jpg');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    color:#ffffff;
+    list-style-type:none;
+    
+}
+#tracklisting{
+    border:10px solid #123456;
+    border-radius:5%;
+    margin:5px;
+    background-color:#8ac4d7;
+    width:300px;
+    height:290px;
+    float:left;
+    overflow:auto;
+    
+}
+#tracklisting li{
+    list-style-type:none;
+    background-color:#93c7d8;
+    margin:5px;
+    padding:2px;
+    cursor:pointer;
+}
+#playlist{
+    border:10px solid #123456;
+    border-radius:5%;
+    background-image:url(mixtape.jpg);
+    background-repeat:no-repeat;
+    overflow-y:scroll;
+    overflow-x:visible;
+    margin:5px;
+    width:400px;
+    height:270px;
+    float:left;
+}
+#playlist li{
+    list-style-type:none;
+    color:#000000;
+    background-color: rgba(147,199,216,.5);
+    margin:5px;
+    padding:2px;
+    cursor:pointer;   
+}
+
+#trash{
+    height:300px;
+    width:400px;
+    background-image:url(trash.png);
+    background-repeat:no-repeat;
+    float:right;
+}
+#controls{
+    position:absolute;
+    top:330px;
+    left:20px;
+    color:#ffffff;
+}
+#position{
+    width:400px
+        
+}
